@@ -167,4 +167,22 @@ img {
         padding-top: 1rem
     }
 
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .why-us {
+        padding: 0 3rem 0 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .why-us img {
+        padding-bottom: 4rem;
+    }
+
 }
