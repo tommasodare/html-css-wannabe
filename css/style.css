@@ -128,8 +128,43 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media screen and (max-width:768px) {
 
-@media screen and (min-width:768px) {
-        
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .row {
+        display:block;
+    }
+
+    .lessons .col {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    .steps .col {
+        width: calc(100% / 1);
+        margin-bottom: 3rem;
+    }
+
+    .card p {
+
+        padding: 0 2rem 0 2rem;
+
+    }
+
+    .steps {
+        padding: 1rem
+    } 
+
+    .steps h2 {
+        padding-top: 1rem;
+    }
 
 }
